@@ -51,7 +51,7 @@ export const Login = () => {
 
   return (
     <Style.Background>
-      <ImageComponent src={img.react} alt="" width="256px" height="86px" />
+      <ImageComponent src={img.react} alt="Logo" width="256px" height="86px" />
 
       <Style.Form
         onSubmit={handleSubmit(async () => {

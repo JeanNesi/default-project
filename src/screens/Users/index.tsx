@@ -129,7 +129,7 @@ export const Users = () => {
                       cell: (
                         <ImageComponent
                           src={user.image}
-                          alt=""
+                          alt="Imagem do usuário"
                           width="32px"
                           height="32px"
                           radius="50px"

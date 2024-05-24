@@ -24,7 +24,9 @@ export const Modal = ({
     <Style.Body $bodyWidth={bodyWidth}>
       <Style.Header>
         <Style.HeaderLeftSide>
-          {titleIcon && <ImageComponent src={titleIcon} alt="" size="24px" />}
+          {titleIcon && (
+            <ImageComponent src={titleIcon} alt="Icone do modal" size="24px" />
+          )}
           <h2>{title}</h2>
         </Style.HeaderLeftSide>
         <IconButton
